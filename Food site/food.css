@@ -1,0 +1,100 @@
+header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aquamarine;
+    width: 100%;
+    height: 50px;
+}
+header h1{
+    text-align: center;
+    padding: 5px;
+    color: brown;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+nav{
+    background-color: aquamarine;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    display: flex;
+    margin: 30px;
+    text-decoration: none;
+    color: brown;
+}
+nav ul li a:hover{
+    color: blue;
+    text-shadow: 2px 4px 8px rgb(26, 6, 6);
+}
+video{
+    width: 100%;
+}
+.overlay{
+    position: absolute;
+    top: 60%;
+    left: 65%;
+    color:rgb(13, 222, 90);
+    text-shadow: 2px 4px 8px rgb(153, 153, 6);
+}
+
+.row{
+    width: 100%;
+    height: 500px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.col{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.row1{
+    width: 100%;
+    height: 550px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.col1{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+h2, h4{
+    text-align: center;
+
+}
+button{
+    color: brown;
+    background-color: rgb(195, 140, 74);
+    padding: 10px;
+    margin-left: 100px;
+}
+button:hover{
+    background-color: blue;
+}
+footer, p{
+    text-align: center;
+    background-color: aquamarine;
+    width: 100%;
+    height: 80px;
+    color: blueviolet;
+}
+footer, p:hover{
+    color: blue;
+}
+h3{
+    color: blueviolet;
+}
+h3:hover{
+    color: blue;
+}

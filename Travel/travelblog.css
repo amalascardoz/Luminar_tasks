@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+.hero{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background-image: url('https://images.squarespace-cdn.com/content/v1/53172b1be4b0cc8a5401db4a/1564523099100-9MPVY26S7NP0LQP96ESV/IMG_1370.jpg?format=2500w');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+nav ul li a:hover{
+    color: orange;
+}
+.container-m{
+    background-color: rgb(228, 210, 197);
+    color: black;
+    width: 300px;
+    height: 100px;
+    padding: 50px;
+    left: 1000px;
+}
+h5{
+    text-align: center;
+}
+.row1{
+    width: 400px;
+    height: 200px;
+    display:flex;
+}
+.col{
+    margin: 10px;
+    margin-left: 30px;
+}
+.col p{
+    text-align: center;
+}
+#about img{
+    background-position: center;
+    background-size: cover;
+}
+#about{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+}
+#about::before{
+    content: "";
+    background-image: url('https://images.squarespace-cdn.com/content/v1/53172b1be4b0cc8a5401db4a/1564523185860-340THSZIM66R5LWD11AZ/IMG_9117.jpg');
+    background-repeat: no-repeat;
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;  
+
+}
+.main{
+    position:absolute;
+    top: 2700px;
+    padding: 50px;
+    left: 40%;
+}
+.main h3{
+    text-align: center;
+    font-size:xx-large;
+    color: white;
+}
+.main h5{
+    text-align: center;
+    font-size:x-large;
+    color: white;
+
+}
+.rowa{
+    margin: 20px;
+}
+#travel{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+}
+#travel::before{
+    content: "";
+    background-image: url('https://images.squarespace-cdn.com/content/v1/53172b1be4b0cc8a5401db4a/1443023597324-UWFXB0BI7QP8KNQ23SDA/image-asset.jpeg?format=1500w');
+    background-repeat: no-repeat;
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;  
+
+}
+.resources{
+    position:absolute;
+    top: 4900px;
+    padding: 50px;
+    left: 45%;
+}
+.resources h3{
+    text-align: center;
+    font-size:xx-large;
+    color: white;
+}
+.resources h5{
+    text-align: center;
+    font-size:x-large;
+    color: white;
+
+}
+form{
+    width: 500px;
+    margin-left: 400px;
+}
+.input{
+    display:flex;
+    width: 100%;
+    margin: 10px;
+}
+button{
+    padding-left: 225px;
+}
