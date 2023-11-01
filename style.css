@@ -1,0 +1,295 @@
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+ }
+ nav ul li a{
+     
+    position: relative;
+    left:400px;
+    margin: 10px;
+ 
+ 
+ }
+ nav ul li a b:hover{
+    color: rgb(96, 61, 130);
+    text-decoration-line: underline;
+ }
+ 
+ nav img{
+ 
+    position: relative;
+    left: 150px;
+    
+ }
+ nav{
+ 
+    height: 80px;
+ }
+ .row{
+ 
+    background-color: rgb(247, 243, 243);
+ }
+ 
+ .row h1{
+    position: relative;
+    left: 160px;
+    top: 210px;
+    color: rgb(77, 10, 139);
+    font-family:serif;
+    font-size:60px;
+ }
+ 
+ .row h3{
+    position: relative;
+    left: 160px;
+    top: 205px;
+    color: rgb(77, 10, 139);
+    font-family:serif;
+ }
+ 
+ .row p1{
+    position: relative;
+    left: 160px;
+    top: 220px;
+    color: rgb(0, 0, 0);
+ }
+ .row1 h1{
+    text-align: center;
+    color: rgb(77, 10, 139);
+    position: relative;
+    top: 110px;
+    font-family: serif;
+    font-size: 60px;
+    
+    }
+ .row1 h3{
+    text-align: center;
+    position: relative;
+    top: 150px;
+ } 
+ .row1 p{
+    text-align: center;
+    position: relative;
+    top: 200px;
+ }
+ .row1 h4{
+    text-align: center;
+    position: relative;
+    top: 240px;
+ }
+ .row2 .col-6{
+    position: relative;
+    top: 300px;
+    left:90px;
+ }
+ .row2 .col-6 .card-body:hover{
+    background-color: blueviolet;
+    
+ }
+ 
+ 
+ .row3 .col-6{
+    position: relative;
+    left:700px;
+    bottom: 90px;
+ }
+ .row3 .col-6 .card-body:hover{
+    background-color: blueviolet;
+    
+ }
+ .row4 .col-6{
+    position: relative;
+    left: 700px;
+    bottom: 90px;
+    
+ 
+ }
+ .row4 .col-6 .card-body:hover{
+    background-color: blueviolet;
+    
+ }
+ .row5 .col-6{
+    position: relative;
+    bottom: 460px;
+    left: 90px;
+ }
+ .row5 .col-6 .card-body:hover{
+    background-color: blueviolet;
+    
+ }
+ 
+ .row6 .col-6{
+ 
+    position: relative;
+    bottom: 460px;
+    left: 90px;
+ }
+ .row6 .col-6 .card-body:hover{
+    background-color: blueviolet;
+    color: blueviolet;
+    
+ }
+ 
+ .col-6 h4{
+    color: rgb(77, 10, 139);
+ 
+ }
+ .row7 h1,p{
+    position: relative;
+    bottom:400px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: serif;
+    font-size: 30px;
+ }
+ .row7 h1{
+    color:  rgb(77, 10, 139);
+    font-size: 60px;
+ }
+ 
+ .row8 img{
+   top: -540px;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    margin-bottom: -890px;
+ 
+ }
+ .row9 h1,h5{
+    text-align: center;
+    position: relative;
+    bottom: 300px;
+    color: rgb(116, 88, 33);
+    font-size: small;
+   
+ }
+ .row9 h1{
+    color: white;
+    font-family: serif;
+    font-size:40px;
+ }
+ 
+ .row9 button{
+ 
+    width: 130px;
+    height: 40px;
+    border-radius:40%;
+    color:rgb(77, 10, 139); 
+    position: relative;
+    bottom: 270px;
+    left: 600px;
+    
+ 
+ }
+ #logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; 
+    overflow: hidden;
+    position: relative;
+    bottom: 500px;
+ }
+ 
+ #logo-image {
+    width: 150px;
+    animation: rotateLogos 2s linear infinite; 
+ }
+ 
+ @keyframes rotateLogos {
+    0%, 100% {
+        transform: translateX(-5);
+    }
+    15% {
+        transform: translateX(-10%);
+    }
+    30% {
+        transform: translateX(-20%);
+    }
+    60% {
+        transform: translateX(-30%);
+    }
+    180%{
+        transform: translateX(-40%);
+ 
+    }
+   360%{
+        transform: translateX(-50%) ;
+    }
+ }
+ #last{
+    position:relative;
+    background-color: rgb(247, 243, 243); 
+    height:1000px
+    
+ }
+ 
+ #last img{
+    height:40px;
+    width: 150px;
+    position: relative;
+    bottom: -100px;
+    left: 160px;
+    position: relative;
+ 
+ 
+ }
+ .col{
+    height: 50px;
+    width: 50px;
+ }
+ #last hr{
+    position: relative;
+    top: 100px;
+    left: 30px;
+    width: 250px;
+    
+ }
+ 
+ #last p2{
+  position: relative;
+    top:110px ;
+    left: 50px;
+    }
+ #last .col-3{
+    position: relative;
+    right: 10px;
+ }
+ 
+ #last .col-3 h3{
+    position: relative;
+    left: 30px;
+    top: 100px;
+ 
+ }
+ #last h4{
+  color: rgb(73, 30, 114);
+ }
+ #last .col-4{
+    color:rgb(79, 5, 102);
+    text-decoration: none;
+    font-family:fantasy;
+ }
+ #last .col-3 .a .img{
+    width:20px;
+    height: 20px;
+ }
+ #last .col-2{
+    margin:10px;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    
+ }
+ #last .col-1{
+    margin:10px;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    margin-left:-50px;
+    
+ }
